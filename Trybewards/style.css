@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant+Infant:wght@600&family=Fondamento&family=IM+Fell+English+SC&family=Mountains+of+Christmas&family=Rye&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+#trybewarts-header-title {
+  font-family: Mountains of Christmas, cursive;
+  font-size: 50px;
+  color: antiquewhite;
+}
+
+.trybewarts-login {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.trybewarts-login input {
+  width: 200px;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-style: none;
+  border-radius: 5px;
+}
+
+.trybewarts-header-logo {
+  width: 70px;
+}
+
+#main {
+  display: flex;
+  font-family: Cormorant Infant, serif;
+  font-size: 25px;
+  justify-content: center;
+  padding: 20px;
+  background-image: url('images/HOGWARTS.jpg');
+  background-size: cover;
+  background-position: bottom;
+  color: antiquewhite;
+  align-items: center;
+  padding-bottom: 15%;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+  background-color: rgba(122, 122, 122, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  margin-left: 100px;
+}
+
+#form-login {
+  display: flex;
+  flex-wrap: wrap;
+  width: 550px;
+  align-content: center;
+}
+
+.subject input {
+  margin-left: 20px;
+  padding: 5px;
+}
+
+#form-login input {
+  padding: 10px;
+  margin: 15px 10px;
+}
+
+#footer {
+  background-color: rgb(50, 167, 145);
+  padding: 20px;
+  text-align: center;
+  color: antiquewhite;
+  font-weight: 600;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+div {
+  margin: 10px;
+}
+
+#house {
+  width: 225px;
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 15px;
+  font-family: Cormorant Infant, serif;
+  font-size: 20px;
+}
+
+#input-email {
+  width: 200px;
+}
+
+#input-name {
+  width: 200px;
+}
+
+#input-lastname {
+  width: 200px;
+}
+
+.option-ratio {
+  margin-left: 20px;
+}
+
+#label-family {
+  margin-left: 20px;
+}
+
+#label-content {
+  margin-left: 20px;
+}
+
+button {
+  width: 200px;
+  text-align: center;
+  background-color: rgb(5, 64, 99);
+  color: antiquewhite;
+  border-style: none;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+button:hover {
+  background-color: rgb(34, 128, 182);
+}
+
+#submit-btn {
+  padding: 10px;
+}
+
+.dados_texto {
+  margin: 5px;
+}
